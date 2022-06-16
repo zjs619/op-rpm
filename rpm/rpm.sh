@@ -1,9 +1,9 @@
 #! /bin/bash
 ## docker
-mv  docker/*   /usr/bin/
+cp -p docker/*   /usr/bin/
 cp -p docker.service  /usr/lib/systemd/system/
 systemctl daemon-reload
-systemctl enable docker.service --now
+systemctl enable docker.service
 systemctl restart  docker.service
 
 ## docker-compose

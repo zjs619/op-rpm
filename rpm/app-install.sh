@@ -1,7 +1,7 @@
 #! /bin/bash
 # 执行脚本. ./app-install.sh
-systemctl restart docker
-sudo mkdir -p /mnt/mb/deploy/ && chmod 777 /mnt/mb/deploy/
+# systemctl restart docker
+mkdir -p /mnt/mb/deploy/ && chmod 777 /mnt/mb/deploy/
 tar -xvf modao.*.tar.gz -C /mnt/mb/deploy/
 mv /mnt/mb/deploy/config2/launchpad/*/* /mnt/mb/deploy/
 cd /mnt/mb/deploy
