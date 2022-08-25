@@ -13,21 +13,10 @@
 # mkdir -p ./exchange-gitignore/export/
 # mv e-batch-mkt-official-*.tgz ./exchange-gitignore/export/
 
-#159
-
-# p -rp deploy-sc/*  /mnt/mb/deploy/ 
-# cd /mnt/mb/deploy/
-# mkdir -p /mnt/mb/deploy/exchange-gitignore/export/
-# mv e-batch-mkt-official-*.tgz ./exchange-gitignore/export/
-# EXPORT_V1_DEBUG=true npx dr-js-core-0.4.*.tgz -I export-v1-mkt-official.*.js -e import
-
-#323 0825
-
-cp -rp deploy-sc/*  /mnt/mb/deploy/ 
+cp -rp deploy-sc2/*  /mnt/mb/deploy/ 
 cd /mnt/mb/deploy/
 mkdir -p /mnt/mb/deploy/exchange-gitignore/export/
 mv e-batch-mkt-official-*.tgz ./exchange-gitignore/export/
-# npx dr-js-core-0.5.*.tgz -I export-v1-mkt-official.*.js -e import
-EXPORT_V1_DEBUG=true npx dr-js-core-0.5.*.tgz -I export-v1-mkt-official.*.js -e import
+EXPORT_V1_DEBUG=true npx dr-js-core-0.4.*.tgz -I export-v1-mkt-official.*.js -e import
 
 
